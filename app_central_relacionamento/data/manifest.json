@@ -1,0 +1,21 @@
+{
+  "history.csv": {
+    "sha256": "7e3c94e3984b6f28d5f34b29ea665211293986214cc083afda32bf4f0c560a50",
+    "bytes": 3421999
+  },
+  "inference.csv": {
+    "sha256": "526c321a28262d5b82556f353c83f62736cd901e0cee6e7014ccf6685fa64071",
+    "bytes": 852390
+  },
+  "feedback_classifications.csv": {
+    "sha256": "ddbc6a48012ba623a43fdaff5d2d1a17b0815176aad051fe7f674ac05a3e1b8e",
+    "bytes": 9181281,
+    "original_filename": "06_feedback_ai_query_completo_v2 (2).csv",
+    "received_on": "2026-11-12"
+  },
+  "churn_scores.csv": {
+    "sha256": "3e3d5b2363516f12f34769a0d54907b3ba991ab8a02f0b6c373d8aca78755a34",
+    "bytes": 370278,
+    "rows": 7043
+  }
+}

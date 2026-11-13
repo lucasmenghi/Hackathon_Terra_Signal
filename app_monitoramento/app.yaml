@@ -1,0 +1,11 @@
+# Configuração do Databricks App
+command: ["streamlit", "run", "app.py"]
+env:
+  - name: DATABRICKS_WAREHOUSE_ID   # vem do recurso "sql-warehouse" adicionado ao app (ver README.md)
+    valueFrom: sql-warehouse
+  - name: GENIE_SPACE_ID            # vem do recurso "genie-space" (espaço Terra Signal · Retenção)
+    valueFrom: genie-space
+  - name: TS_SCHEMA
+    value: workspace.terra_signal
+  - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+    value: "false"

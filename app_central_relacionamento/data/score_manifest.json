@@ -1,0 +1,26 @@
+{
+  "history": {
+    "filename": "abt_completa_scored.csv",
+    "sha256": "78f661024037e08dcf5c7d85ffaa50796242a4beef990fc54594c978b80d9278",
+    "rows": 5634,
+    "split": {
+      "Treino": 4507,
+      "Teste": 1127
+    }
+  },
+  "inference": {
+    "filename": "inferencia_scored.csv",
+    "sha256": "719e606fe80500563d22f6eba8ae521511db64a075d046847880a594e414ca90",
+    "rows": 1409,
+    "split": {
+      "nao_informado": 1409
+    }
+  },
+  "integration": {
+    "received_on": "2026-11-12",
+    "source_column": "Probabilidade_Churn",
+    "model_version": "Regressão logística Ridge (L2), C = 0,03, limiar 0,4944, classes balanceadas: execução do Antonio (modelo-antonio)",
+    "scored_at": null,
+    "note": "Notas copiadas sem retreino, recalibração ou novo limiar. Churn_Previsto e Decil_Risco vêm do arquivo do modelo."
+  }
+}
