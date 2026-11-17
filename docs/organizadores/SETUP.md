@@ -1,3 +1,5 @@
+> Material dos organizadores. Notebook de exemplo nesta pasta; CSVs em `../../dados/`. Para executar a solução final, siga o [guia técnico](../GUIA_TECNICO.md).
+
 # Guia de Setup — Hackathon Terra Signal
 
 Passo a passo para preparar tudo no **primeiro dia**. Siga na ordem. Se travar em
@@ -40,7 +42,7 @@ Para o Databricks ler/escrever no seu fork, conecte sua conta GitHub uma vez:
    - No GitHub: **Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token**, com o escopo **`repo`**.
    - Cole o token no Databricks e salve.
 
-![Conectar o GitHub ao Databricks](assets/setup-link-github.gif)
+![Conectar o GitHub ao Databricks](../../assets/setup-link-github.gif)
 
 ---
 
@@ -49,7 +51,7 @@ Para o Databricks ler/escrever no seu fork, conecte sua conta GitHub uma vez:
 1. Ícone do perfil (canto sup. direito) → **Settings** → **Identity and access** → **Users** → **Add user**.
 2. Adicione o e-mail de cada integrante. Selecione a permissão de "Workspace Admin".
 
-![Adicionar a equipe ao workspace](assets/setup-add-team.gif)
+![Adicionar a equipe ao workspace](../../assets/setup-add-team.gif)
 
 ---
 
@@ -59,7 +61,7 @@ Para o Databricks ler/escrever no seu fork, conecte sua conta GitHub uma vez:
 2. Cole a URL do **seu fork** (`https://github.com/SUA-CONTA/Hackathon_Terra_Signal`).
 3. **Create**. A pasta aparece com todos os arquivos do repositório.
 
-![Criar Git folder a partir do fork](assets/setup-git-folder.gif)
+![Criar Git folder a partir do fork](../../assets/setup-git-folder.gif)
 
 ---
 
